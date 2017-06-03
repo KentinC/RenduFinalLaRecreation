@@ -56,13 +56,13 @@ h2 {
   text-align: center;
 }
 
-.tel_header {
+#header .tel_header {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-.lang_header {
+#header .lang_header {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -99,7 +99,7 @@ nav .menu ul li {
   padding: 20px;
 }
 
-nav .menu ul li .classUnderLine {
+nav .menu ul li a {
   text-decoration: none;
   color: #FFFFFF;
   font-family: 'Libre Baskerville', serif;
@@ -107,16 +107,16 @@ nav .menu ul li .classUnderLine {
   padding-top: 15px;
 }
 
-nav .menu ul li .classUnderLine:focus,
-.classUnderLine:hover {
+nav .menu ul li a:focus,
+a:hover {
   color: #FFFFFF;
   display: inline;
   -webkit-transition: 0.9s;
   transition: 0.9s;
 }
 
-nav .menu ul li .classUnderLine::after,
-.classUnderLine::after {
+nav .menu ul li a::after, nav .menu ul li
+a::after {
   color: #FFFFFF;
   display: block;
   width: 0px;
@@ -129,8 +129,8 @@ nav .menu ul li .classUnderLine::after,
   transition: all ease-in 0.5s
 }
 
-nav .menu ul li .classUnderLine:focus::after,
-.classUnderLine:hover::after {
+nav .menu ul li a:focus::after,
+a:hover::after {
   color: #FFFFFF;
   display: block;
   width: 100px;
@@ -303,7 +303,7 @@ a {
 
 ********************/
 
-.footerCss {
+footer .row {
   background-color: #1E1F34;
   color: #CC76CA;
   font-family: 'Open Sans', sans-serif;
@@ -311,15 +311,15 @@ a {
   text-align: center;
 }
 
-.footerCss a {
+.footerCss .imgfootera {
   text-decoration: none;
+  display: inline-block;
 }
 
 .leftFooter img {
   width: 15%;
   text-decoration: none;
   text-align: center;
-  display: inline-block;
 }
 
 
