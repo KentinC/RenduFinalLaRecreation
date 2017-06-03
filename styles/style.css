@@ -115,7 +115,7 @@ a:hover {
   transition: 0.9s;
 }
 
-nav .menu ul li a::after, nav .menu ul li
+nav .menu ul li a::after,
 a::after {
   color: #FFFFFF;
   display: block;
