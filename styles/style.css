@@ -22,6 +22,7 @@ h2 {
   font-style: italic;
   font-size: 18px;
   color: #222222;
+  text-align: center;
 }
 
 
@@ -387,7 +388,6 @@ footer img{
 .bodyKitchen {
   background: url(../images/backgroundKitchen.jpg) no-repeat white;
   background-size: contain;
-  width: 100%;
 }
 
 .firstPictureKitchen {
@@ -395,7 +395,7 @@ footer img{
   margin-top: 60px;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 
@@ -408,7 +408,6 @@ footer img{
   width: 90%;
   background-color: #FFFFFF;
   color: #222222;
-  padding: 30px;
   text-align: justify;
   border-radius: 2px;
   display: block;
@@ -418,23 +417,18 @@ footer img{
 .firstTextKitchen {
   border: #CC76CA solid 2px;
   border-radius: 2px;
-  margin-top: 60px;
+  margin-top: 20px;
+  padding: 15px;
 }
 .secondTextKitchen {
-  margin-top: 200px;
+  margin-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
 }
-.large-7 .secondPictureKitchen .spkImg1 {
-  margin-top: 150px;
+.spkImg1 {
   margin-left: 10%;
-  width: 40%;
-}
-.medium-12 .secondPictureKitchen .spkImg1 {
-  margin-top: 10px;
-  margin-left: 10%;
-  margin-bottom: 10px;
   width: 40%;
 }
 .spkImg2 {
@@ -443,7 +437,64 @@ footer img{
   margin-left: 50%;
   width: 40%;
 }
-
+@media screen and (min-width: 40em) {
+  .firstTextKitchen {
+    border: #CC76CA solid 2px;
+    border-radius: 2px;
+    margin-top: 40px;
+    padding: 15px;
+  }
+  
+  .secondTextKitchen {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+  }
+  
+  .spkImg1 {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 30%;
+  }
+  
+  .spkImg2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 55%;
+    width: 30%;
+  }
+}
+@media screen and (min-width: 64em) {
+  .firstTextKitchen {
+    border: #CC76CA solid 2px;
+    border-radius: 2px;
+    margin-top: 60px;
+    padding: 15px;
+  }
+  
+  .secondTextKitchen {
+    margin-top: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }
+  
+  .spkImg1 {
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 40%;
+  }
+  
+  .spkImg2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    width: 40%;
+  }
+}
 /******************
 
 
@@ -455,37 +506,98 @@ footer img{
   background: url('../images/bgEnvironment.png') no-repeat white;
   background-size: contain;
 }
+
+
 .firstPictureEnvironment {
-  margin-top: 250px;
-}
-.firstTextEnvironment,
-.secondTextEnvironment,
-.thirdTextEnvironment {
-  background-color: #FFFFFF;
-  color: #222222;
-  text-align: justify;
-  padding: 35px 45px;
-  border-radius: 2px;
-}
-.firstTextEnvironment {
-  width: 600px;
-  margin: auto;
-  margin-top: 60px;
-}
-.firstTextEnvironment h2 {
-  padding-bottom: 20px;
-  text-align: center;
-}
-.secondTextEnvironment {
-  margin-top: 100px;
-}
-.secondPictureEnvironment {
-  margin-top: 60px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 50px;
 }
 
+.firstTextEnvironment,
+  .secondTextEnvironment,
+  .thirdTextEnvironment {
+    background-color: #FFFFFF;
+    color: #222222;
+    text-align: justify;
+    padding: 35px 45px;
+    border-radius: 2px;
+  }
+  .firstTextEnvironment {
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .firstTextEnvironment h2 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .secondPictureEnvironment {
+    margin-top: 60px;
+  }
+
+@media screen and (min-width: 40em){
+  .firstPictureEnvironment {
+    margin-top: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .firstTextEnvironment,
+  .secondTextEnvironment,
+  .thirdTextEnvironment {
+    background-color: #FFFFFF;
+    color: #222222;
+    text-align: justify;
+    padding: 35px 45px;
+    border-radius: 2px;
+  }
+  .firstTextEnvironment {
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .firstTextEnvironment h2 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .secondTextEnvironment {
+    margin-top: 100px;
+  }
+  .secondPictureEnvironment {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 64em){
+  .firstPictureEnvironment {
+  margin-top: 250px;
+  }
+  
+  .firstTextEnvironment,
+  .secondTextEnvironment,
+  .thirdTextEnvironment {
+    background-color: #FFFFFF;
+    color: #222222;
+    text-align: justify;
+    padding: 35px 45px;
+    border-radius: 2px;
+  }
+  .firstTextEnvironment {
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .firstTextEnvironment h2 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .secondTextEnvironment {
+    margin-top: 100px;
+  }
+  .secondPictureEnvironment {
+    margin-top: 60px;
+  }
+}
 /***********************
 
 
