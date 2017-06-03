@@ -191,6 +191,29 @@ a {
   margin-left: 20px;
 }
 
+@media screen and (min-width: 40em) {
+.slider {
+  width: 90%;
+  height: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media screen and (min-width: 40em) {
+.slider {
+  width: 90%;
+  height: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
 .slider figure {
   position: relative;
   width: 500%;
@@ -270,6 +293,12 @@ a {
 
 
 /****** TEXTS ******/
+.videoHome {
+  margin-top: 10px;
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .firstTextHome,
 .secondTextHome {
@@ -291,16 +320,58 @@ a {
 }
 
 .secondTextHome {
-  margin-top: 160px;
+  margin-top: 60px;
 }
 
-
-/****** VIDEO ******/
-
-.videoHome {
+@media screen and (max-width: 40em){
+  .videoHome {
   margin-top: 180px;
+  }
+  
+  .firstTextHome,
+  .secondTextHome {
+    background-color: #FFFFFF;
+    color: #222222;
+    text-align: justify;
+    padding: 35px 45px;
+    border-radius: 2px;
+  }
+
+  .firstTextHome {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .firstTextHome h2 {
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
+@media screen and (max-width: 64em){
+  .videoHome {
+  margin-top: 180px;
+  }
+  
+  .firstTextHome,
+  .secondTextHome {
+    background-color: #FFFFFF;
+    color: #222222;
+    text-align: justify;
+    padding: 35px 45px;
+    border-radius: 2px;
+  }
+
+  .firstTextHome {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .firstTextHome h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+}
 
 /***** CONTACT *****/
 
@@ -313,6 +384,30 @@ a {
   padding: 30px;
   height: 400px;
   background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 64em){
+  .contactHome {
+    border: #CC76CA solid 2px;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 400px;
+    background-color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 64em){
+  .contactHome {
+    border: #CC76CA solid 2px;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 400px;
+    background-color: #FFFFFF;
+  }
 }
 
 .contactHome h2 {
@@ -645,5 +740,16 @@ footer img {
 .contactHome .contactPhoneHome {
   font-size: 16px;
 }
-@media screen and (min-width: 40em) {}
-@media screen and (min-width: 64em) {}
+.firstTextContact {
+  margin-top: 20px;
+}
+@media screen and (min-width: 40em) {
+  .firstTextContact {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .firstTextContact {
+    margin-top: 100px;
+  }
+}
