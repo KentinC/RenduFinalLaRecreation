@@ -604,6 +604,15 @@ footer img {
 }
 .firstPictureEnvironment {
   margin-top: 50px;
+  width 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pictureEnvironment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .firstTextEnvironment,
 .secondTextEnvironment,
@@ -611,12 +620,14 @@ footer img {
   background-color: #FFFFFF;
   color: #222222;
   text-align: justify;
-  padding: 35px 45px;
+  padding: 20px 30px;
   border-radius: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .firstTextEnvironment {
-  width: 600px;
-  margin: auto;
+  width: 90%;
   margin-top: 60px;
 }
 .firstTextEnvironment h2 {
@@ -628,8 +639,9 @@ footer img {
 }
 @media screen and (min-width: 40em) {
   .firstPictureEnvironment {
-    margin-top: 250px;
-    width: 100%;
+    margin-top: 50px;
+    width 90%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -640,13 +652,12 @@ footer img {
     background-color: #FFFFFF;
     color: #222222;
     text-align: justify;
-    padding: 35px 45px;
+    padding: 20px 30px;
     border-radius: 2px;
   }
   
   .firstTextEnvironment {
-    width: 600px;
-    margin: auto;
+    width: 90%;
     margin-top: 60px;
   }
   
@@ -665,7 +676,11 @@ footer img {
 }
 @media screen and (max-width: 64em) {
   .firstPictureEnvironment {
-    margin-top: 250px;
+    margin-top: 50px;
+    width 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .firstTextEnvironment,
@@ -674,13 +689,12 @@ footer img {
     background-color: #FFFFFF;
     color: #222222;
     text-align: justify;
-    padding: 35px 45px;
+    padding: 20px 30px;
     border-radius: 2px;
   }
   
   .firstTextEnvironment {
-    width: 600px;
-    margin: auto;
+    width: 90%;
     margin-top: 60px;
   }
   
