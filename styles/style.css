@@ -18,6 +18,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Libre Baskerville', serif;
   font-style: italic;
   font-size: 18px;
   color: #222222;
@@ -56,10 +57,19 @@ h2 {
   text-align: center;
 }
 
-#header .tel_header {
+#header .tel_header p {
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 5px;
+  left: 40px;
+  color: #CC76CA;
+}
+#header .tel_header img {
+  width: 20px;
+  position: absolute;
+  top: 17px;
+  left: 5px;
+  color: #CC76CA;
 }
 
 #header .lang_header {
@@ -162,14 +172,20 @@ a {
 
 **********************/
 
+.bodyIndex{
+  background: url('../images/bgIndex.png') no-repeat white;
+  background-size: contain;
+}
 
 /***** SLIDER ******/
 
 .slider {
-  width: 60%;
-  height: 60%;
+  width: 90%;
+  height: 80%;
   max-width: 600px;
   overflow: hidden;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 .slider figure {
@@ -261,9 +277,24 @@ a {
   border-radius: 2px;
 }
 
+.firstTextHome{
+  margin-left: 20px;
+  margin-top: 40px;
+}
 
+.firstTextHome h2{
+  font-size: 14px;
+  text-align: center;
+}
+
+.secondTextHome{
+  margin-top: 160px;
+}
 /****** VIDEO ******/
 
+.videoHome{
+  margin-top: 180px;
+}
 
 /***** CONTACT *****/
 
@@ -271,15 +302,22 @@ a {
   border: #CC76CA solid 2px;
   border-radius: 2px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  padding: 30px;
   height: 400px;
   background-color: #FFFFFF;
 }
 
+.contactHome h2{
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
 .mapHome {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .contactHome h4 {
@@ -384,6 +422,15 @@ footer .row {
 
 
 ********************/
+.bodyEnvironment{
+  background: url('../images/bgEnvironment.png') no-repeat white;
+  background-size: contain;
+}
+
+.firstPictureEnvironment{
+margin-top: 250px;
+}
+
 
 .firstTextEnvironment,
 .secondTextEnvironment,
@@ -398,9 +445,21 @@ footer .row {
 .firstTextEnvironment {
   width: 600px;
   margin: auto;
+  margin-top: 60px;
 }
 
+.firstTextEnvironment h2{
+  padding-bottom: 20px;
+  text-align: center;
+}
 
+.secondTextEnvironment{
+  margin-top: 100px;
+}
+
+.secondPictureEnvironment{
+  margin-top: 60px;
+}
 /***********************
 
 
