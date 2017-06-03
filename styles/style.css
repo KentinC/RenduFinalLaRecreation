@@ -356,7 +356,7 @@ footer .row {
   height: 50px;
 }
 
-footer img{
+footer img {
   width: 40px;
   display: inline-block;
   margin: 5px;
@@ -495,6 +495,7 @@ footer img{
     width: 40%;
   }
 }
+
 /******************
 
 
@@ -506,35 +507,31 @@ footer img{
   background: url('../images/bgEnvironment.png') no-repeat white;
   background-size: contain;
 }
-
-
 .firstPictureEnvironment {
   margin-top: 50px;
 }
-
 .firstTextEnvironment,
-  .secondTextEnvironment,
-  .thirdTextEnvironment {
-    background-color: #FFFFFF;
-    color: #222222;
-    text-align: justify;
-    padding: 35px 45px;
-    border-radius: 2px;
-  }
-  .firstTextEnvironment {
-    width: 600px;
-    margin: auto;
-    margin-top: 60px;
-  }
-  .firstTextEnvironment h2 {
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .secondPictureEnvironment {
-    margin-top: 60px;
-  }
-
-@media screen and (min-width: 40em){
+.secondTextEnvironment,
+.thirdTextEnvironment {
+  background-color: #FFFFFF;
+  color: #222222;
+  text-align: justify;
+  padding: 35px 45px;
+  border-radius: 2px;
+}
+.firstTextEnvironment {
+  width: 600px;
+  margin: auto;
+  margin-top: 60px;
+}
+.firstTextEnvironment h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.secondPictureEnvironment {
+  margin-top: 60px;
+}
+@media screen and (min-width: 40em) {
   .firstPictureEnvironment {
     margin-top: 250px;
     width: 100%;
@@ -551,26 +548,29 @@ footer img{
     padding: 35px 45px;
     border-radius: 2px;
   }
+  
   .firstTextEnvironment {
     width: 600px;
     margin: auto;
     margin-top: 60px;
   }
+  
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
   }
+  
   .secondTextEnvironment {
     margin-top: 100px;
   }
+  
   .secondPictureEnvironment {
     margin-top: 60px;
   }
 }
-
-@media screen and (max-width: 64em){
+@media screen and (max-width: 64em) {
   .firstPictureEnvironment {
-  margin-top: 250px;
+    margin-top: 250px;
   }
   
   .firstTextEnvironment,
@@ -582,22 +582,27 @@ footer img{
     padding: 35px 45px;
     border-radius: 2px;
   }
+  
   .firstTextEnvironment {
     width: 600px;
     margin: auto;
     margin-top: 60px;
   }
+  
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
   }
+  
   .secondTextEnvironment {
     margin-top: 100px;
   }
+  
   .secondPictureEnvironment {
     margin-top: 60px;
   }
 }
+
 /***********************
 
 
@@ -609,24 +614,6 @@ footer img{
   background: url(../images/backgroundContact.jpg) no-repeat white;
   background-size: contain;
 }
-.firstTextContact {
-  border: #CC76CA solid 2px;
-  border-radius: 2px;
-  text-align: center;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  height: 400px;
-  background-color: #FFFFFF;
-  width: 100%;
-}
-.googleContact {
-  margin-top: 90px;
-  width: 100%;
-}
-.firstImageContact {
-  margin-top: 90px;
-  margin-bottom: 90px;
-}
 .contactHome {
   border: #CC76CA solid 2px;
   border-radius: 2px;
@@ -636,24 +623,27 @@ footer img{
   padding: 30px;
   height: 400px;
   background-color: #FFFFFF;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .contactHome h2 {
   padding-bottom: 20px;
   padding-top: 5px;
 }
-
 .mapHome {
-  margin-top: 130px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.contactHome h4 {
-  color: #CC76CA;
-  font-style: italic;
+.googleMaps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .contactHome .contactPhoneHome {
   font-size: 16px;
 }
+@media screen and (min-width: 40em) {}
+@media screen and (min-width: 64em) {}
