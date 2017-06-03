@@ -1,6 +1,0 @@
-$(document).read(function(){
-  
-  
-  
-  
-});

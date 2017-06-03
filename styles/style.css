@@ -98,37 +98,39 @@ h2 {
 
 nav {
   width: 940px;
-  margin: auto;
   text-align: center;
+  margin-right: 0;
 }
 
-nav .menu ul {
+nav ul {
   list-style: none;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: -6px;
+  ;
 }
 
-nav .menu ul li {
+nav ul li {
   margin: 0;
-  padding: 20px;
+  padding: 12px;
+  display: inline-block;
 }
 
-nav .menu ul li a {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: 'Libre Baskerville', serif;
-  text-align: center;
-  padding-top: 15px;
-}
-
-nav .menu ul li a:focus,
-a:hover {
-  color: #FFFFFF;
+.lineUnderLink:hover {
+  color: #F28239;
   display: inline;
   -webkit-transition: 0.9s;
   transition: 0.9s;
 }
 
-nav .menu ul li a::after,
-a::after {
+.lineUnderLink:focus {
+  color: #F28239;
+  display: inline;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.lineUnderLink::after {
   color: #FFFFFF;
   display: block;
   width: 0px;
@@ -141,8 +143,7 @@ a::after {
   transition: all ease-in 0.5s
 }
 
-nav .menu ul li a:focus::after,
-a:hover::after {
+.lineUnderLink:hover::after {
   color: #FFFFFF;
   display: block;
   width: 100px;
@@ -192,28 +193,29 @@ a {
 }
 
 @media screen and (min-width: 40em) {
-.slider {
-  width: 90%;
-  height: 80%;
-  max-width: 600px;
-  overflow: hidden;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .slider {
+    width: 90%;
+    height: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 40em) {
-.slider {
-  width: 90%;
-  height: 80%;
-  max-width: 600px;
-  overflow: hidden;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  .slider {
+    width: 90%;
+    height: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-}
+
 .slider figure {
   position: relative;
   width: 500%;
@@ -293,6 +295,7 @@ a {
 
 
 /****** TEXTS ******/
+
 .videoHome {
   margin-top: 10px;
   width: 520px;
@@ -323,11 +326,10 @@ a {
   margin-top: 60px;
 }
 
-@media screen and (max-width: 40em){
+@media screen and (max-width: 40em) {
   .videoHome {
-  margin-top: 180px;
+    margin-top: 180px;
   }
-  
   .firstTextHome,
   .secondTextHome {
     background-color: #FFFFFF;
@@ -336,23 +338,20 @@ a {
     padding: 35px 45px;
     border-radius: 2px;
   }
-
   .firstTextHome {
     margin-left: 20px;
     margin-top: 40px;
   }
-
   .firstTextHome h2 {
     font-size: 14px;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 64em) {
   .videoHome {
-  margin-top: 180px;
+    margin-top: 180px;
   }
-  
   .firstTextHome,
   .secondTextHome {
     background-color: #FFFFFF;
@@ -361,17 +360,16 @@ a {
     padding: 35px 45px;
     border-radius: 2px;
   }
-
   .firstTextHome {
     margin-left: 20px;
     margin-top: 40px;
   }
-
   .firstTextHome h2 {
     font-size: 14px;
     text-align: center;
   }
 }
+
 
 /***** CONTACT *****/
 
@@ -386,7 +384,7 @@ a {
   background-color: #FFFFFF;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 64em) {
   .contactHome {
     border: #CC76CA solid 2px;
     border-radius: 2px;
@@ -398,7 +396,7 @@ a {
   }
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 64em) {
   .contactHome {
     border: #CC76CA solid 2px;
     border-radius: 2px;
@@ -448,13 +446,26 @@ footer .row {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   text-align: center;
-  height: 50px;
+  height: 70px;
 }
 
 footer img {
   width: 40px;
   display: inline-block;
   margin: 5px;
+}
+
+.footerCss {
+  height: 30px;
+}
+
+.leftFooter {
+  margin-top: 10px;
+}
+
+.middleFooter,
+.rightFooter {
+  margin-top: 25px;
 }
 
 
@@ -603,7 +614,7 @@ footer img {
   background-size: contain;
 }
 .firstPictureEnvironment {
-  margin-top: 50px;
+  margin-top: 60px;
   width 90%;
   display: block;
   margin-left: auto;
@@ -639,7 +650,7 @@ footer img {
 }
 @media screen and (min-width: 40em) {
   .firstPictureEnvironment {
-    margin-top: 50px;
+    margin-top: 90px;
     width 90%;
     display: block;
     margin-left: auto;
@@ -658,7 +669,7 @@ footer img {
   
   .firstTextEnvironment {
     width: 90%;
-    margin-top: 60px;
+    margin-top: 90px;
   }
   
   .firstTextEnvironment h2 {
@@ -667,16 +678,16 @@ footer img {
   }
   
   .secondTextEnvironment {
-    margin-top: 100px;
+    margin-top: 90px;
   }
   
   .secondPictureEnvironment {
-    margin-top: 60px;
+    margin-top: 90px;
   }
 }
 @media screen and (max-width: 64em) {
   .firstPictureEnvironment {
-    margin-top: 50px;
+    margin-top: 90px;
     width 90%;
     display: block;
     margin-left: auto;
@@ -695,7 +706,7 @@ footer img {
   
   .firstTextEnvironment {
     width: 90%;
-    margin-top: 60px;
+    margin-top: 90px;
   }
   
   .firstTextEnvironment h2 {
@@ -704,11 +715,11 @@ footer img {
   }
   
   .secondTextEnvironment {
-    margin-top: 100px;
+    margin-top: 90px;
   }
   
   .secondPictureEnvironment {
-    margin-top: 60px;
+    margin-top: 90px;
   }
 }
 
