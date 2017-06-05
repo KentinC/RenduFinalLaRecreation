@@ -490,8 +490,15 @@ footer img {
   position: relative;
 }
 
+.menusAndVine p {
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
 .menusAndVine .menu1 {
-    background-image: url(../images/menu1.jpg);
     width: 25%;
     max-width: 480px;
     height: 100%;
@@ -507,10 +514,58 @@ footer img {
     top: 35%;
     width: 100%;
     text-align: center;
+    
+}
+.menusAndVine .menu2 {
+    width: 25%;
+    max-width: 480px;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 
-.menusAndVine pa[class^="text-"]{
-  float: left;
+.menusAndVine .textMenu2 {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+.menusAndVine .menu3 {
+    width: 25%;
+    max-width: 480px;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.menusAndVine .textMenu3 {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+.menusAndVine .menu4 {
+    width: 25%;
+    max-width: 480px;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.menusAndVine .textMenu4 {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
 }
 
 .bodyMenu footer{
