@@ -42,9 +42,16 @@ HEADER
 /****** HEADER *******/
 
 #header {
-  width: 960px;
   margin: auto;
   background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 64em) {
+  #header {
+    width: 960px;
+    margin: auto;
+    background-color: #FFFFFF;
+  }
 }
 
 #header .laRecreation {
@@ -101,9 +108,16 @@ HEADER
 /********* MENU ********/
 
 nav {
-  width: 940px;
   text-align: center;
   margin-right: 0;
+}
+
+@media screen and (min-width: 64em) {
+  nav {
+    width: 940px;
+    text-align: center;
+    margin-right: 0;
+  }
 }
 
 nav ul {
@@ -121,7 +135,7 @@ nav ul li {
 }
 
 .lineUnderLink:hover {
-  color: #F28239;
+  color: #CC76CA;
   display: inline;
   -webkit-transition: 0.9s;
   transition: 0.9s;
@@ -208,7 +222,7 @@ HOME PAGE
   }
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 64em) {
   .slider {
     width: 90%;
     height: 80%;
@@ -518,7 +532,6 @@ MENUS & VINE
   text-align: center;
 }
 
-
 .menusAndVine .menu2 {
   width: 25%;
   max-width: 480px;
@@ -574,11 +587,17 @@ MENUS & VINE
 }
 
 .bodyMenu footer {
-  width: 960px;
   margin: auto;
 }
 
-.openMenu{
+@media screen and (min-width: 64em) {
+  .bodyMenu footer {
+    width: 960px;
+    margin: auto;
+  }
+}
+
+.openMenu {
   text-align: center;
   background: #FFFFFF;
   width: 420px;
@@ -588,7 +607,7 @@ MENUS & VINE
   display: none;
 }
 
-.openMenu .text1{
+.openMenu .text1 {
   vertical-align: middle;
   position: absolute;
   top: 50%;
@@ -596,7 +615,8 @@ MENUS & VINE
   z-index: 5;
   display: none;
 }
-.openMenu .text2{
+
+.openMenu .text2 {
   vertical-align: middle;
   position: absolute;
   top: 50%;
@@ -604,7 +624,8 @@ MENUS & VINE
   z-index: 5;
   display: none;
 }
-.openMenu .text3{
+
+.openMenu .text3 {
   vertical-align: middle;
   position: absolute;
   top: 50%;
@@ -612,7 +633,8 @@ MENUS & VINE
   z-index: 5;
   display: none;
 }
-.openMenu .text4{
+
+.openMenu .text4 {
   vertical-align: middle;
   position: absolute;
   top: 50%;
@@ -620,6 +642,8 @@ MENUS & VINE
   z-index: 5;
   display: none;
 }
+
+
 /*******************
 
 
@@ -634,8 +658,8 @@ KITCHEN & TAKEAWAY
 }
 
 .firstPictureKitchen {
-  width: 90%;
-  margin-top: 60px;
+  width: 100%;
+  margin-top: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -647,8 +671,8 @@ KITCHEN & TAKEAWAY
   border-radius: 2px;
 }
 .firstTextKitchen,
-.secondTextKitchen {
-  width: 90%;
+.secondTextKitchen,
+.middleTextKitchen {
   background-color: #FFFFFF;
   color: #222222;
   text-align: justify;
@@ -658,12 +682,22 @@ KITCHEN & TAKEAWAY
   margin-right: auto;
 }
 .firstTextKitchen {
+  width: 90%;
   border: #CC76CA solid 2px;
   border-radius: 2px;
   margin-top: 20px;
   padding: 15px;
 }
+.middleTextKitchen {
+  width: 60%;
+  border: #CC76CA solid 2px;
+  border-radius: 2px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+}
 .secondTextKitchen {
+  width: 90%;
   margin-top: 20px;
   display: block;
   margin-left: auto;
@@ -681,13 +715,22 @@ KITCHEN & TAKEAWAY
   width: 40%;
 }
 @media screen and (min-width: 40em) {
+  .firstPictureKitchen {
+    width: 90%;
+    margin-top: 40px;
+  }
+  
   .firstTextKitchen {
     border: #CC76CA solid 2px;
     border-radius: 2px;
     margin-top: 40px;
     padding: 15px;
   }
-
+  
+  .middleTextKitchen {
+    margin-top: 40px;
+  }
+  
   .secondTextKitchen {
     margin-top: 40px;
     display: block;
@@ -695,13 +738,13 @@ KITCHEN & TAKEAWAY
     margin-right: auto;
     padding: 15px;
   }
-
+  
   .spkImg1 {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 15%;
     width: 30%;
   }
-
+  
   .spkImg2 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -710,27 +753,35 @@ KITCHEN & TAKEAWAY
   }
 }
 @media screen and (min-width: 64em) {
+  .firstPictureKitchen {
+    margin-top: 60px;
+  }
+  
   .firstTextKitchen {
     border: #CC76CA solid 2px;
     border-radius: 2px;
     margin-top: 60px;
     padding: 15px;
   }
-
+  
+  .middleTextKitchen {
+    margin-top: 60px;
+  }
+  
   .secondTextKitchen {
-    margin-top: 180px;
+    margin-top: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
   }
-
+  
   .spkImg1 {
-    margin-top: 150px;
+    margin-top: 60px;
     margin-left: 10%;
     width: 40%;
   }
-
+  
   .spkImg2 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -793,7 +844,7 @@ ENVIRONMENT
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
@@ -803,21 +854,21 @@ ENVIRONMENT
     padding: 20px 30px;
     border-radius: 2px;
   }
-
+  
   .firstTextEnvironment {
     width: 90%;
     margin-top: 90px;
   }
-
+  
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
   }
-
+  
   .secondTextEnvironment {
     margin-top: 90px;
   }
-
+  
   .secondPictureEnvironment {
     margin-top: 90px;
   }
@@ -830,7 +881,7 @@ ENVIRONMENT
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
@@ -840,21 +891,21 @@ ENVIRONMENT
     padding: 20px 30px;
     border-radius: 2px;
   }
-
+  
   .firstTextEnvironment {
     width: 90%;
     margin-top: 90px;
   }
-
+  
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
   }
-
+  
   .secondTextEnvironment {
     margin-top: 90px;
   }
-
+  
   .secondPictureEnvironment {
     margin-top: 90px;
   }
