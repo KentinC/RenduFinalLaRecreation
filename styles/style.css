@@ -1,20 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  @font-face {
-    font-family: 'dkUncleOscarItalic';
-    src: url('../../styles/fonts/dkUncleOscarItalic.ttf');
-  }
-  font-family: 'Libre Baskerville',
-  serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   color: #222222;
   background-color: #444444;
 }
 
 h1 {
-  /*font-family: 'Libre Baskerville', serif;*/
-  font-family: 'Libre Baskerville', 'serif';
+  font-family: 'Libre Baskerville', serif;
   font-style: italic;
   font-size: 18px;
   text-align: center;
@@ -335,8 +329,20 @@ HOME PAGE
 }
 
 .firstTextHome {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 17px;
+}
+
+@media screen and (max-width: 40em) {
+  .firstTextHome {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .firstTextHome {
+    margin-top: 60px;
+  }
 }
 
 .firstTextHome h2 {
@@ -352,17 +358,6 @@ HOME PAGE
   .videoHome {
     margin-top: 180px;
   }
-  .firstTextHome,
-  .secondTextHome {
-    background-color: #FFFFFF;
-    color: #222222;
-    text-align: justify;
-    padding: 35px 45px;
-    border-radius: 2px;
-  }
-  .firstTextHome {
-    margin-top: 40px;
-  }
   .firstTextHome h2 {
     font-size: 14px;
     text-align: center;
@@ -372,17 +367,6 @@ HOME PAGE
 @media screen and (max-width: 64em) {
   .videoHome {
     margin-top: 180px;
-  }
-  .firstTextHome,
-  .secondTextHome {
-    background-color: #FFFFFF;
-    color: #222222;
-    text-align: justify;
-    padding: 35px 45px;
-    border-radius: 2px;
-  }
-  .firstTextHome {
-    margin-top: 40px;
   }
   .firstTextHome h2 {
     font-size: 14px;
@@ -437,7 +421,7 @@ HOME PAGE
 }
 
 .mapHome {
-  margin-top: 130px;
+  margin-top: 60px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
@@ -768,6 +752,7 @@ KITCHEN & TAKEAWAY
     border-radius: 2px;
     margin-top: 60px;
     padding: 15px;
+    margin-left: -20px;
   }
   
   .middlePartText {
@@ -811,14 +796,6 @@ ENVIRONMENT
 .firstPictureEnvironment {
   margin-top: 10px;
   width 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.pictureEnvironment {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .firstTextEnvironment,
 .secondTextEnvironment,
@@ -868,6 +845,11 @@ ENVIRONMENT
   }
 }
 @media screen and (max-width: 64em) {
+  .firstPictureEnvironment {
+    margin-top: 60px;
+    width 90%;
+  }
+  
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
@@ -896,7 +878,7 @@ CONTACT & PARTNER
   border: #CC76CA solid 2px;
   border-radius: 2px;
   text-align: center;
-  margin-top: 130px;
+  margin-top: 60px;
   margin-bottom: 20px;
   padding: 30px;
   height: 400px;
@@ -925,6 +907,11 @@ CONTACT & PARTNER
 }
 .firstTextContact {
   margin-top: 20px;
+  background-color: #FFFFFF;
+  color: #222222;
+  text-align: justify;
+  padding: 35px 45px;
+  border-radius: 2px;
 }
 .partners {
   text-align: center;
@@ -936,12 +923,12 @@ CONTACT & PARTNER
 }
 @media screen and (min-width: 40em) {
   .firstTextContact {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 64em) {
   .firstTextContact {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 }
 
