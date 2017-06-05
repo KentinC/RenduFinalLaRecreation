@@ -1,14 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Libre Baskerville', serif;
+  @font-face {
+    font-family: 'dkUncleOscarItalic';
+    src: url('../../styles/fonts/dkUncleOscarItalic.ttf');
+  }
+  font-family: 'Libre Baskerville',
+  serif;
   font-size: 14px;
   color: #222222;
   background-color: #444444;
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
+  /*font-family: 'Libre Baskerville', serif;*/
+  font-family: 'Libre Baskerville', 'serif';
   font-style: italic;
   font-size: 18px;
   text-align: center;
@@ -330,6 +336,7 @@ HOME PAGE
 
 .firstTextHome {
   margin-top: 40px;
+  margin-left: 17px;
 }
 
 .firstTextHome h2 {
@@ -400,7 +407,7 @@ HOME PAGE
   background-color: #FFFFFF;
 }
 
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 40em) {
   .contactHome {
     border: #CC76CA solid 2px;
     border-radius: 2px;
@@ -670,7 +677,7 @@ KITCHEN & TAKEAWAY
 }
 .firstTextKitchen,
 .secondTextKitchen,
-.middleTextKitchen {
+.middlePartText {
   background-color: #FFFFFF;
   color: #222222;
   text-align: justify;
@@ -686,7 +693,7 @@ KITCHEN & TAKEAWAY
   margin-top: 20px;
   padding: 15px;
 }
-.middleTextKitchen {
+.middlePartText {
   width: 100%;
   border: #CC76CA solid 2px;
   border-radius: 2px;
@@ -725,9 +732,9 @@ KITCHEN & TAKEAWAY
     padding: 15px;
   }
   
-  .middleTextKitchen {
+  .middlePartText {
     margin-top: 40px;
-    width: 60%;
+    width: 90%;
   }
   
   .secondTextKitchen {
@@ -763,9 +770,9 @@ KITCHEN & TAKEAWAY
     padding: 15px;
   }
   
-  .middleTextKitchen {
+  .middlePartText {
     margin-top: 60px;
-    width: 60%;
+    width: 90%;
   }
   
   .secondTextKitchen {
@@ -921,6 +928,11 @@ CONTACT & PARTNER
 }
 .partners {
   text-align: center;
+}
+.partners a,
+.textLegal p a {
+  color: #CC76CA;
+  font-weight: bolder;
 }
 @media screen and (min-width: 40em) {
   .firstTextContact {
