@@ -202,21 +202,22 @@ HOME PAGE
 /***** SLIDER ******/
 
 .slider {
-  width: 90%;
+  width: 100%;
   height: 80%;
   max-width: 600px;
   overflow: hidden;
-  margin-top: 100px;
-  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 40em) {
   .slider {
-    width: 90%;
-    height: 80%;
-    max-width: 600px;
-    overflow: hidden;
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-left: 0;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -224,13 +225,9 @@ HOME PAGE
 
 @media screen and (min-width: 64em) {
   .slider {
-    width: 90%;
-    height: 80%;
-    max-width: 600px;
-    overflow: hidden;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 60px;
+    margin-left: -15px;
+    margin-right: 0;
   }
 }
 
@@ -315,8 +312,9 @@ HOME PAGE
 /****** TEXTS ******/
 
 .videoHome {
-  margin-top: 10px;
+  margin-top: 60px;
   width: 520px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -331,7 +329,6 @@ HOME PAGE
 }
 
 .firstTextHome {
-  margin-left: 20px;
   margin-top: 40px;
 }
 
@@ -357,7 +354,6 @@ HOME PAGE
     border-radius: 2px;
   }
   .firstTextHome {
-    margin-left: 20px;
     margin-top: 40px;
   }
   .firstTextHome h2 {
@@ -379,12 +375,14 @@ HOME PAGE
     border-radius: 2px;
   }
   .firstTextHome {
-    margin-left: 20px;
     margin-top: 40px;
   }
   .firstTextHome h2 {
     font-size: 14px;
     text-align: center;
+  }
+  .secondTextHome {
+    margin-right: 15px;
   }
 }
 
@@ -682,14 +680,14 @@ KITCHEN & TAKEAWAY
   margin-right: auto;
 }
 .firstTextKitchen {
-  width: 90%;
+  width: 100%;
   border: #CC76CA solid 2px;
   border-radius: 2px;
   margin-top: 20px;
   padding: 15px;
 }
 .middleTextKitchen {
-  width: 60%;
+  width: 100%;
   border: #CC76CA solid 2px;
   border-radius: 2px;
   margin-top: 20px;
@@ -697,7 +695,7 @@ KITCHEN & TAKEAWAY
   text-align: center;
 }
 .secondTextKitchen {
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
   display: block;
   margin-left: auto;
@@ -729,6 +727,7 @@ KITCHEN & TAKEAWAY
   
   .middleTextKitchen {
     margin-top: 40px;
+    width: 60%;
   }
   
   .secondTextKitchen {
@@ -766,6 +765,7 @@ KITCHEN & TAKEAWAY
   
   .middleTextKitchen {
     margin-top: 60px;
+    width: 60%;
   }
   
   .secondTextKitchen {
@@ -802,8 +802,8 @@ ENVIRONMENT
   background-size: contain;
 }
 .firstPictureEnvironment {
-  margin-top: 60px;
-  width 90%;
+  margin-top: 10px;
+  width 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -816,6 +816,7 @@ ENVIRONMENT
 .firstTextEnvironment,
 .secondTextEnvironment,
 .thirdTextEnvironment {
+  width: 100%;
   background-color: #FFFFFF;
   color: #222222;
   text-align: justify;
@@ -826,38 +827,28 @@ ENVIRONMENT
   margin-right: auto;
 }
 .firstTextEnvironment {
-  width: 90%;
-  margin-top: 60px;
+  width: 100%;
+  margin-top: 10px;
 }
 .firstTextEnvironment h2 {
   padding-bottom: 20px;
   text-align: center;
 }
 .secondPictureEnvironment {
-  margin-top: 60px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 40em) {
   .firstPictureEnvironment {
-    margin-top: 90px;
+    margin-top: 60px;
     width 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
   
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
-    background-color: #FFFFFF;
-    color: #222222;
-    text-align: justify;
-    padding: 20px 30px;
-    border-radius: 2px;
-  }
-  
-  .firstTextEnvironment {
     width: 90%;
-    margin-top: 90px;
+    margin-top: 60px;
   }
   
   .firstTextEnvironment h2 {
@@ -865,34 +856,14 @@ ENVIRONMENT
     text-align: center;
   }
   
-  .secondTextEnvironment {
-    margin-top: 90px;
-  }
-  
   .secondPictureEnvironment {
-    margin-top: 90px;
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 64em) {
-  .firstPictureEnvironment {
-    margin-top: 90px;
-    width 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
-    background-color: #FFFFFF;
-    color: #222222;
-    text-align: justify;
-    padding: 20px 30px;
-    border-radius: 2px;
-  }
-  
-  .firstTextEnvironment {
     width: 90%;
     margin-top: 90px;
   }
@@ -900,14 +871,6 @@ ENVIRONMENT
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
-  }
-  
-  .secondTextEnvironment {
-    margin-top: 90px;
-  }
-  
-  .secondPictureEnvironment {
-    margin-top: 90px;
   }
 }
 
@@ -955,6 +918,9 @@ CONTACT & PARTNER
 }
 .firstTextContact {
   margin-top: 20px;
+}
+.partners {
+  text-align: center;
 }
 @media screen and (min-width: 40em) {
   .firstTextContact {
