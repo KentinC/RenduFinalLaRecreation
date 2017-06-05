@@ -588,12 +588,37 @@ MENUS & VINE
   display: none;
 }
 
-.openMenu p{
+.openMenu .text1{
   vertical-align: middle;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
+  display: none;
+}
+.openMenu .text2{
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  display: none;
+}
+.openMenu .text3{
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  display: none;
+}
+.openMenu .text4{
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  display: none;
 }
 /*******************
 
