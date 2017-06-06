@@ -26,38 +26,34 @@ var openMenu = document.querySelector(".openMenu");
 // Part of code for the basic image
 img1.addEventListener(
   'click',
-  function()
-  {
-    if(bloc1.classList.contains("is-active"))
-    {
-      bloc2.style.display=("block");
-      menu2.style.display=("block");
+  function () {
+    if (bloc1.classList.contains("is-active")) {
+      bloc2.style.display = ("block");
+      menu2.style.display = ("block");
 
-      bloc3.style.display=("block");
-      menu3.style.display=("block");
+      bloc3.style.display = ("block");
+      menu3.style.display = ("block");
 
-      bloc4.style.display=("block");
-      menu4.style.display=("block");
+      bloc4.style.display = ("block");
+      menu4.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text1.style.display=("none");
-    }
-    else
-    {
-      bloc4.style.display=("none");
-      menu4.style.display=("none");
+      openMenu.style.display = ("none");
+      text1.style.display = ("none");
+    } else {
+      bloc4.style.display = ("none");
+      menu4.style.display = ("none");
 
-      bloc3.style.display=("none");
-      menu3.style.display=("none");
+      bloc3.style.display = ("none");
+      menu3.style.display = ("none");
 
-      bloc2.style.display=("none");
-      menu2.style.display=("none");
+      bloc2.style.display = ("none");
+      menu2.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text1.style.display=("block");
-      text2.style.display=("none");
-      text3.style.display=("none");
-      text4.style.display=("none");
+      openMenu.style.display = ("block");
+      text1.style.display = ("block");
+      text2.style.display = ("none");
+      text3.style.display = ("none");
+      text4.style.display = ("none");
 
     }
     bloc1.classList.toggle("is-active");
@@ -67,38 +63,34 @@ img1.addEventListener(
 
 img2.addEventListener(
   'click',
-  function()
-  {
-    if(bloc2.classList.contains("is-active"))
-    {
-      bloc1.style.display=("block");
-      menu1.style.display=("block");
+  function () {
+    if (bloc2.classList.contains("is-active")) {
+      bloc1.style.display = ("block");
+      menu1.style.display = ("block");
 
-      bloc3.style.display=("block");
-      menu3.style.display=("block");
+      bloc3.style.display = ("block");
+      menu3.style.display = ("block");
 
-      bloc4.style.display=("block");
-      menu4.style.display=("block");
+      bloc4.style.display = ("block");
+      menu4.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text1.style.display=("none");
-    }
-    else
-    {
-      bloc4.style.display=("none");
-      menu4.style.display=("none");
+      openMenu.style.display = ("none");
+      text1.style.display = ("none");
+    } else {
+      bloc4.style.display = ("none");
+      menu4.style.display = ("none");
 
-      bloc3.style.display=("none");
-      menu3.style.display=("none");
+      bloc3.style.display = ("none");
+      menu3.style.display = ("none");
 
-      bloc1.style.display=("none");
-      menu1.style.display=("none");
+      bloc1.style.display = ("none");
+      menu1.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text2.style.display=("block");
-      text1.style.display=("none");
-      text3.style.display=("none");
-      text4.style.display=("none");
+      openMenu.style.display = ("block");
+      text2.style.display = ("block");
+      text1.style.display = ("none");
+      text3.style.display = ("none");
+      text4.style.display = ("none");
 
     }
     bloc2.classList.toggle("is-active");
@@ -108,38 +100,34 @@ img2.addEventListener(
 
 img3.addEventListener(
   'click',
-  function()
-  {
-    if(bloc3.classList.contains("is-active"))
-    {
-      bloc2.style.display=("block");
-      menu2.style.display=("block");
+  function () {
+    if (bloc3.classList.contains("is-active")) {
+      bloc2.style.display = ("block");
+      menu2.style.display = ("block");
 
-      bloc1.style.display=("block");
-      menu1.style.display=("block");
+      bloc1.style.display = ("block");
+      menu1.style.display = ("block");
 
-      bloc4.style.display=("block");
-      menu4.style.display=("block");
+      bloc4.style.display = ("block");
+      menu4.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text1.style.display=("none");
-    }
-    else
-    {
-      bloc4.style.display=("none");
-      menu4.style.display=("none");
+      openMenu.style.display = ("none");
+      text1.style.display = ("none");
+    } else {
+      bloc4.style.display = ("none");
+      menu4.style.display = ("none");
 
-      bloc1.style.display=("none");
-      menu1.style.display=("none");
+      bloc1.style.display = ("none");
+      menu1.style.display = ("none");
 
-      bloc2.style.display=("none");
-      menu2.style.display=("none");
+      bloc2.style.display = ("none");
+      menu2.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text3.style.display=("block");
-      text2.style.display=("none");
-      text1.style.display=("none");
-      text4.style.display=("none");
+      openMenu.style.display = ("block");
+      text3.style.display = ("block");
+      text2.style.display = ("none");
+      text1.style.display = ("none");
+      text4.style.display = ("none");
 
     }
     bloc3.classList.toggle("is-active");
@@ -149,38 +137,34 @@ img3.addEventListener(
 
 img4.addEventListener(
   'click',
-  function()
-  {
-    if(bloc4.classList.contains("is-active"))
-    {
-      bloc2.style.display=("block");
-      menu2.style.display=("block");
+  function () {
+    if (bloc4.classList.contains("is-active")) {
+      bloc2.style.display = ("block");
+      menu2.style.display = ("block");
 
-      bloc3.style.display=("block");
-      menu3.style.display=("block");
+      bloc3.style.display = ("block");
+      menu3.style.display = ("block");
 
-      bloc1.style.display=("block");
-      menu1.style.display=("block");
+      bloc1.style.display = ("block");
+      menu1.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text4.style.display=("none");
-    }
-    else
-    {
-      bloc1.style.display=("none");
-      menu1.style.display=("none");
+      openMenu.style.display = ("none");
+      text4.style.display = ("none");
+    } else {
+      bloc1.style.display = ("none");
+      menu1.style.display = ("none");
 
-      bloc3.style.display=("none");
-      menu3.style.display=("none");
+      bloc3.style.display = ("none");
+      menu3.style.display = ("none");
 
-      bloc2.style.display=("none");
-      menu2.style.display=("none");
+      bloc2.style.display = ("none");
+      menu2.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text4.style.display=("block");
-      text2.style.display=("none");
-      text3.style.display=("none");
-      text1.style.display=("none");
+      openMenu.style.display = ("block");
+      text4.style.display = ("block");
+      text2.style.display = ("none");
+      text3.style.display = ("none");
+      text1.style.display = ("none");
 
     }
     bloc4.classList.toggle("is-active");
@@ -191,38 +175,34 @@ img4.addEventListener(
 //Part of code for the text
 menu1.addEventListener(
   'click',
-  function()
-  {
-    if(bloc1.classList.contains("is-active"))
-    {
-      bloc2.style.display=("block");
-      menu2.style.display=("block");
+  function () {
+    if (bloc1.classList.contains("is-active")) {
+      bloc2.style.display = ("block");
+      menu2.style.display = ("block");
 
-      bloc3.style.display=("block");
-      menu3.style.display=("block");
+      bloc3.style.display = ("block");
+      menu3.style.display = ("block");
 
-      bloc4.style.display=("block");
-      menu4.style.display=("block");
+      bloc4.style.display = ("block");
+      menu4.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text1.style.display=("none");
-    }
-    else
-    {
-      bloc4.style.display=("none");
-      menu4.style.display=("none");
+      openMenu.style.display = ("none");
+      text1.style.display = ("none");
+    } else {
+      bloc4.style.display = ("none");
+      menu4.style.display = ("none");
 
-      bloc3.style.display=("none");
-      menu3.style.display=("none");
+      bloc3.style.display = ("none");
+      menu3.style.display = ("none");
 
-      bloc2.style.display=("none");
-      menu2.style.display=("none");
+      bloc2.style.display = ("none");
+      menu2.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text1.style.display=("block");
-      text2.style.display=("none");
-      text3.style.display=("none");
-      text4.style.display=("none");
+      openMenu.style.display = ("block");
+      text1.style.display = ("block");
+      text2.style.display = ("none");
+      text3.style.display = ("none");
+      text4.style.display = ("none");
 
     }
     bloc1.classList.toggle("is-active");
@@ -232,38 +212,34 @@ menu1.addEventListener(
 
 menu2.addEventListener(
   'click',
-  function()
-  {
-    if(bloc2.classList.contains("is-active"))
-    {
-      bloc1.style.display=("block");
-      menu1.style.display=("block");
+  function () {
+    if (bloc2.classList.contains("is-active")) {
+      bloc1.style.display = ("block");
+      menu1.style.display = ("block");
 
-      bloc3.style.display=("block");
-      menu3.style.display=("block");
+      bloc3.style.display = ("block");
+      menu3.style.display = ("block");
 
-      bloc4.style.display=("block");
-      menu4.style.display=("block");
+      bloc4.style.display = ("block");
+      menu4.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text1.style.display=("none");
-    }
-    else
-    {
-      bloc4.style.display=("none");
-      menu4.style.display=("none");
+      openMenu.style.display = ("none");
+      text1.style.display = ("none");
+    } else {
+      bloc4.style.display = ("none");
+      menu4.style.display = ("none");
 
-      bloc3.style.display=("none");
-      menu3.style.display=("none");
+      bloc3.style.display = ("none");
+      menu3.style.display = ("none");
 
-      bloc1.style.display=("none");
-      menu1.style.display=("none");
+      bloc1.style.display = ("none");
+      menu1.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text2.style.display=("block");
-      text1.style.display=("none");
-      text3.style.display=("none");
-      text4.style.display=("none");
+      openMenu.style.display = ("block");
+      text2.style.display = ("block");
+      text1.style.display = ("none");
+      text3.style.display = ("none");
+      text4.style.display = ("none");
 
     }
     bloc2.classList.toggle("is-active");
@@ -273,38 +249,34 @@ menu2.addEventListener(
 
 menu3.addEventListener(
   'click',
-  function()
-  {
-    if(bloc3.classList.contains("is-active"))
-    {
-      bloc2.style.display=("block");
-      menu2.style.display=("block");
+  function () {
+    if (bloc3.classList.contains("is-active")) {
+      bloc2.style.display = ("block");
+      menu2.style.display = ("block");
 
-      bloc1.style.display=("block");
-      menu1.style.display=("block");
+      bloc1.style.display = ("block");
+      menu1.style.display = ("block");
 
-      bloc4.style.display=("block");
-      menu4.style.display=("block");
+      bloc4.style.display = ("block");
+      menu4.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text1.style.display=("none");
-    }
-    else
-    {
-      bloc4.style.display=("none");
-      menu4.style.display=("none");
+      openMenu.style.display = ("none");
+      text1.style.display = ("none");
+    } else {
+      bloc4.style.display = ("none");
+      menu4.style.display = ("none");
 
-      bloc1.style.display=("none");
-      menu1.style.display=("none");
+      bloc1.style.display = ("none");
+      menu1.style.display = ("none");
 
-      bloc2.style.display=("none");
-      menu2.style.display=("none");
+      bloc2.style.display = ("none");
+      menu2.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text3.style.display=("block");
-      text2.style.display=("none");
-      text1.style.display=("none");
-      text4.style.display=("none");
+      openMenu.style.display = ("block");
+      text3.style.display = ("block");
+      text2.style.display = ("none");
+      text1.style.display = ("none");
+      text4.style.display = ("none");
 
     }
     bloc3.classList.toggle("is-active");
@@ -314,38 +286,34 @@ menu3.addEventListener(
 
 menu4.addEventListener(
   'click',
-  function()
-  {
-    if(bloc4.classList.contains("is-active"))
-    {
-      bloc2.style.display=("block");
-      menu2.style.display=("block");
+  function () {
+    if (bloc4.classList.contains("is-active")) {
+      bloc2.style.display = ("block");
+      menu2.style.display = ("block");
 
-      bloc3.style.display=("block");
-      menu3.style.display=("block");
+      bloc3.style.display = ("block");
+      menu3.style.display = ("block");
 
-      bloc1.style.display=("block");
-      menu1.style.display=("block");
+      bloc1.style.display = ("block");
+      menu1.style.display = ("block");
 
-      openMenu.style.display=("none");
-      text4.style.display=("none");
-    }
-    else
-    {
-      bloc1.style.display=("none");
-      menu1.style.display=("none");
+      openMenu.style.display = ("none");
+      text4.style.display = ("none");
+    } else {
+      bloc1.style.display = ("none");
+      menu1.style.display = ("none");
 
-      bloc3.style.display=("none");
-      menu3.style.display=("none");
+      bloc3.style.display = ("none");
+      menu3.style.display = ("none");
 
-      bloc2.style.display=("none");
-      menu2.style.display=("none");
+      bloc2.style.display = ("none");
+      menu2.style.display = ("none");
 
-      openMenu.style.display=("block");
-      text4.style.display=("block");
-      text2.style.display=("none");
-      text3.style.display=("none");
-      text1.style.display=("none");
+      openMenu.style.display = ("block");
+      text4.style.display = ("block");
+      text2.style.display = ("none");
+      text3.style.display = ("none");
+      text1.style.display = ("none");
 
     }
     bloc4.classList.toggle("is-active");

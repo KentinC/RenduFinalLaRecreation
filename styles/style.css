@@ -19,7 +19,6 @@ h1 {
 
 h2 {
   font-family: 'Libre Baskerville', serif;
-  font-style: italic;
   font-size: 18px;
   color: #222222;
   text-align: center;
@@ -307,6 +306,15 @@ HOME PAGE
 .videoHome {
   margin-top: 60px;
   width: 520px;
+  height: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoYoutube {
+  width: 100%;
+  height: 315px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -330,16 +338,22 @@ HOME PAGE
   .firstTextHome {
     margin-top: 40px;
   }
+  .videoYoutube {
+    width: 520px;
+  }
 }
 
 @media screen and (max-width: 64em) {
   .firstTextHome {
     margin-top: 60px;
   }
+  .videoYoutube {
+    width: 520px;
+  }
 }
 
 .firstTextHome h2 {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -592,7 +606,6 @@ MENUS & VINE
   text-align: center;
 }
 
-
 .openMenu {
   text-align: center;
   background: #FFFFFF;
@@ -639,6 +652,7 @@ MENUS & VINE
   display: none;
 }
 
+
 /***** Footer ******/
 
 .bodyMenu footer {
@@ -651,6 +665,8 @@ MENUS & VINE
     margin: auto;
   }
 }
+
+
 /*******************
 
 
@@ -925,6 +941,8 @@ CONTACT & PARTNER
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
+  height: 400px;
 }
 
 .contactHome .contactPhoneHome {
@@ -956,9 +974,16 @@ CONTACT & PARTNER
   }
 }
 
+.googleMaps {
+  width: 90%;
+}
+
 @media screen and (min-width: 64em) {
   .firstTextContact {
     margin-top: 60px;
+  }
+  .googleMaps {
+    width: 450px;
   }
 }
 
