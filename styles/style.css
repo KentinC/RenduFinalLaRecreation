@@ -29,6 +29,10 @@ h2 {
   clear: both;
 }
 
+i {
+  color: #CC76CA;
+}
+
 
 /*********************
 
@@ -130,7 +134,7 @@ nav ul {
 
 nav ul li {
   margin: 0;
-  padding: 12px;
+  padding: 3px;
   display: inline-block;
 }
 
@@ -164,7 +168,7 @@ nav ul li {
 .lineUnderLink:hover::after {
   color: #FFFFFF;
   display: block;
-  width: 100px;
+  width: 25px;
   margin: 0 auto;
   margin-top: 10px;
   height: 1px;
@@ -182,6 +186,34 @@ nav ul li {
 
 a {
   color: white;
+}
+
+.lineUnderLink {
+  font-size: 8px;
+}
+
+@media screen and (min-width: 40em) {
+  .lineUnderLink:hover::after {
+    width: 35px;
+  }
+  .lineUnderLink {
+    font-size: 10px;
+  }
+  nav ul li {
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .lineUnderLink:hover::after {
+    width: 55px;
+  }
+  .lineUnderLink {
+    font-size: 15px;
+  }
+  nav ul li {
+    padding: 12px;
+  }
 }
 
 
@@ -211,6 +243,8 @@ HOME PAGE
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: solid 6px rgba(255, 0, 0, .3);
+  border-radius: 2px;
 }
 
 @media screen and (min-width: 40em) {
@@ -238,8 +272,7 @@ HOME PAGE
   padding: 0;
   font-size: 0;
   text-align: left;
-  -webkit-animation: 30s slidy infinite;
-  animation: 30s slidy infinite;
+  animation: slider 15s infinite;
 }
 
 .slider figure img {
@@ -248,63 +281,23 @@ HOME PAGE
   float: left;
 }
 
-@-webkit-keyframes slidy {
-  0% {
-    left: 0%;
-  }
-  20% {
-    left: 0%;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
+@keyframes slider {
+  0%,
+  20%,
   100% {
-    left: -400%;
+    left: 0
   }
-}
-
-@keyframes slidy {
-  0% {
-    left: 0%;
-  }
-  20% {
-    left: 0%;
-  }
-  25% {
-    left: -100%;
-  }
+  25%,
   45% {
-    left: -100%;
+    left: -100%
   }
-  50% {
-    left: -200%;
-  }
+  50%,
   70% {
-    left: -200%;
+    left: -200%
   }
-  75% {
-    left: -300%;
-  }
+  75%,
   95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
+    left: -300%
   }
 }
 
@@ -451,15 +444,15 @@ footer .row {
   background-color: #1E1F34;
   color: #CC76CA;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 8px;
   text-align: center;
   height: 70px;
 }
 
 footer img {
-  width: 40px;
+  width: 20px;
   display: inline-block;
-  margin: 5px;
+  margin: 15px 2px 2px 2px;
 }
 
 .footerCss {
@@ -473,6 +466,26 @@ footer img {
 .middleFooter,
 .rightFooter {
   margin-top: 25px;
+}
+
+@media screen and (min-width: 40em) {
+  footer img {
+    width: 23px;
+    margin: 15px 2px 2px 2px;
+  }
+  footer .row {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  footer img {
+    width: 40px;
+    margin: 5px 5px 5px 5px;
+  }
+  footer .row {
+    font-size: 15px;
+  }
 }
 
 
@@ -654,11 +667,10 @@ KITCHEN & TAKEAWAY
   margin-right: auto;
 }
 
-
-}
 .firstPictureKitchen img {
   border-radius: 2px;
 }
+
 .firstTextKitchen,
 .secondTextKitchen,
 .middlePartText {
@@ -670,6 +682,7 @@ KITCHEN & TAKEAWAY
   margin-left: auto;
   margin-right: auto;
 }
+
 .firstTextKitchen {
   width: 100%;
   border: #CC76CA solid 2px;
@@ -677,6 +690,7 @@ KITCHEN & TAKEAWAY
   margin-top: 20px;
   padding: 15px;
 }
+
 .middlePartText {
   width: 100%;
   border: #CC76CA solid 2px;
@@ -685,6 +699,7 @@ KITCHEN & TAKEAWAY
   padding: 15px;
   text-align: center;
 }
+
 .secondTextKitchen {
   width: 100%;
   margin-top: 20px;
@@ -693,34 +708,34 @@ KITCHEN & TAKEAWAY
   margin-right: auto;
   padding: 15px;
 }
+
 .spkImg1 {
   margin-left: 10%;
   width: 40%;
 }
+
 .spkImg2 {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 50%;
   width: 40%;
 }
+
 @media screen and (min-width: 40em) {
   .firstPictureKitchen {
     width: 90%;
     margin-top: 40px;
   }
-  
   .firstTextKitchen {
     border: #CC76CA solid 2px;
     border-radius: 2px;
     margin-top: 40px;
     padding: 15px;
   }
-  
   .middlePartText {
     margin-top: 40px;
     width: 90%;
   }
-  
   .secondTextKitchen {
     margin-top: 40px;
     display: block;
@@ -728,13 +743,11 @@ KITCHEN & TAKEAWAY
     margin-right: auto;
     padding: 15px;
   }
-  
   .spkImg1 {
     margin-top: 40px;
     margin-left: 15%;
     width: 30%;
   }
-  
   .spkImg2 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -742,11 +755,11 @@ KITCHEN & TAKEAWAY
     width: 30%;
   }
 }
+
 @media screen and (min-width: 64em) {
   .firstPictureKitchen {
     margin-top: 60px;
   }
-  
   .firstTextKitchen {
     border: #CC76CA solid 2px;
     border-radius: 2px;
@@ -754,12 +767,10 @@ KITCHEN & TAKEAWAY
     padding: 15px;
     margin-left: -20px;
   }
-  
   .middlePartText {
     margin-top: 60px;
     width: 90%;
   }
-  
   .secondTextKitchen {
     margin-top: 60px;
     display: block;
@@ -767,13 +778,11 @@ KITCHEN & TAKEAWAY
     margin-right: auto;
     padding: 30px;
   }
-  
   .spkImg1 {
     margin-top: 60px;
     margin-left: 10%;
     width: 40%;
   }
-  
   .spkImg2 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -782,6 +791,7 @@ KITCHEN & TAKEAWAY
   }
 }
 
+
 /******************
 
 
@@ -789,14 +799,17 @@ ENVIRONMENT
 
 
 ********************/
+
 .bodyEnvironment {
   background: url('../images/backgroundEnvironment.jpg') no-repeat white;
   background-size: contain;
 }
+
 .firstPictureEnvironment {
   margin-top: 10px;
   width 100%;
 }
+
 .firstTextEnvironment,
 .secondTextEnvironment,
 .thirdTextEnvironment {
@@ -810,58 +823,59 @@ ENVIRONMENT
   margin-left: auto;
   margin-right: auto;
 }
+
 .firstTextEnvironment {
   width: 100%;
   margin-top: 10px;
 }
+
 .firstTextEnvironment h2 {
   padding-bottom: 20px;
   text-align: center;
 }
+
 .secondPictureEnvironment {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
 @media screen and (min-width: 40em) {
   .firstPictureEnvironment {
     margin-top: 60px;
     width 90%;
   }
-  
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
     width: 90%;
     margin-top: 60px;
   }
-  
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
   }
-  
   .secondPictureEnvironment {
     margin-top: 60px;
   }
 }
+
 @media screen and (max-width: 64em) {
   .firstPictureEnvironment {
     margin-top: 60px;
     width 90%;
   }
-  
   .firstTextEnvironment,
   .secondTextEnvironment,
   .thirdTextEnvironment {
     width: 90%;
     margin-top: 90px;
   }
-  
   .firstTextEnvironment h2 {
     padding-bottom: 20px;
     text-align: center;
   }
 }
+
 
 /***********************
 
@@ -870,10 +884,12 @@ CONTACT & PARTNER
 
 
 ***********************/
+
 .bodyContact {
   background: url(../images/backgroundContact.jpg) no-repeat white;
   background-size: contain;
 }
+
 .contactHome {
   border: #CC76CA solid 2px;
   border-radius: 2px;
@@ -888,23 +904,28 @@ CONTACT & PARTNER
   margin-left: auto;
   margin-right: auto;
 }
+
 .contactHome h2 {
   padding-bottom: 20px;
   padding-top: 5px;
 }
+
 .mapHome {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .googleMaps {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .contactHome .contactPhoneHome {
   font-size: 16px;
 }
+
 .firstTextContact {
   margin-top: 20px;
   background-color: #FFFFFF;
@@ -913,24 +934,29 @@ CONTACT & PARTNER
   padding: 35px 45px;
   border-radius: 2px;
 }
+
 .partners {
   text-align: center;
 }
+
 .partners a,
 .textLegal p a {
   color: #CC76CA;
   font-weight: bolder;
 }
+
 @media screen and (min-width: 40em) {
   .firstTextContact {
     margin-top: 40px;
   }
 }
+
 @media screen and (min-width: 64em) {
   .firstTextContact {
     margin-top: 60px;
   }
 }
+
 
 /***********************
 
@@ -939,9 +965,11 @@ CONTACT & PARTNER
 
 
 ***********************/
+
 .backgroundLegal {
   background: url(../images/backgroundLegal.jpg) no-repeat white;
 }
+
 .textLegal {
   background-color: #FFFFFF;
   color: #222222;
