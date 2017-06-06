@@ -1,14 +1,23 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< Updated upstream
   font-family: 'Libre Baskerville', serif;
+=======
+  font-family: 'Libre Baskerville',
+  serif;
+>>>>>>> Stashed changes
   font-size: 14px;
   color: #222222;
   background-color: #444444;
 }
 
 h1 {
+<<<<<<< Updated upstream
   font-family: 'Libre Baskerville', serif;
+=======
+  font-family: 'Libre Baskerville', 'serif';
+>>>>>>> Stashed changes
   font-style: italic;
   font-size: 18px;
   text-align: center;
