@@ -1,23 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-<<<<<<< Updated upstream
   font-family: 'Libre Baskerville', serif;
-=======
-  font-family: 'Libre Baskerville',
-  serif;
->>>>>>> Stashed changes
   font-size: 14px;
   color: #222222;
   background-color: #444444;
 }
 
 h1 {
-<<<<<<< Updated upstream
   font-family: 'Libre Baskerville', serif;
-=======
-  font-family: 'Libre Baskerville', 'serif';
->>>>>>> Stashed changes
   font-style: italic;
   font-size: 18px;
   text-align: center;
@@ -534,6 +525,7 @@ MENUS & VINE
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #ffffff;
+  display: block;
 }
 
 .menusAndVine .textMenu1 {
@@ -552,6 +544,7 @@ MENUS & VINE
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #ffffff;
+  display: block;
 }
 
 .menusAndVine .textMenu2 {
@@ -570,6 +563,7 @@ MENUS & VINE
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #ffffff;
+  display: block;
 }
 
 .menusAndVine .textMenu3 {
@@ -588,6 +582,7 @@ MENUS & VINE
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #ffffff;
+  display: block;
 }
 
 .menusAndVine .textMenu4 {
@@ -597,21 +592,11 @@ MENUS & VINE
   text-align: center;
 }
 
-.bodyMenu footer {
-  margin: auto;
-}
-
-@media screen and (min-width: 64em) {
-  .bodyMenu footer {
-    width: 960px;
-    margin: auto;
-  }
-}
 
 .openMenu {
   text-align: center;
   background: #FFFFFF;
-  width: 420px;
+  width: 75%;
   margin-left: 245px;
   height: 425px;
   position: relative;
@@ -654,7 +639,18 @@ MENUS & VINE
   display: none;
 }
 
+/***** Footer ******/
 
+.bodyMenu footer {
+  margin: auto;
+}
+
+@media screen and (min-width: 64em) {
+  .bodyMenu footer {
+    width: 960px;
+    margin: auto;
+  }
+}
 /*******************
 
 
@@ -970,7 +966,7 @@ CONTACT & PARTNER
 /***********************
 
 
-  LEGAL MENTIONS
+LEGAL MENTIONS
 
 
 ***********************/

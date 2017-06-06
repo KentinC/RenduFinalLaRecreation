@@ -30,55 +30,37 @@ img1.addEventListener(
   {
     if(bloc1.classList.contains("is-active"))
     {
-
-      img2.setAttribute("src", "../../images/menu2.jpg");
+      bloc2.style.display=("block");
       menu2.style.display=("block");
-      bloc2.style.width=("25%");
-      bloc2.style.float=("left");
 
-      img3.setAttribute("src", "../../images/menu3.jpg");
+      bloc3.style.display=("block");
       menu3.style.display=("block");
-      bloc3.style.width=("25%");
-      bloc3.style.float=("left");
 
-      img4.setAttribute("src", "../../images/vine.jpg");
+      bloc4.style.display=("block");
       menu4.style.display=("block");
-      bloc4.style.width=("25%");
-      bloc4.style.float=("left");
 
       openMenu.style.display=("none");
       text1.style.display=("none");
-      
-      bloc1.classList.remove("is-active");
     }
     else
     {
-      img4.setAttribute("src", "../../images/vinemini.jpg");
+      bloc4.style.display=("none");
       menu4.style.display=("none");
-      bloc4.style.width=("100px");
-      bloc4.style.float=("right");
 
-      img3.setAttribute("src", "../../images/menu3mini.jpg");
+      bloc3.style.display=("none");
       menu3.style.display=("none");
-      bloc3.style.width=("100px");
-      bloc3.style.float=("right");
 
-      img2.setAttribute("src", "../../images/menu2mini.jpg");
+      bloc2.style.display=("none");
       menu2.style.display=("none");
-      bloc2.style.width=("100px");
-      bloc2.style.float=("right");
 
       openMenu.style.display=("block");
       text1.style.display=("block");
       text2.style.display=("none");
       text3.style.display=("none");
       text4.style.display=("none");
-      
-      bloc1.classList.add("is-active");
+
     }
-    bloc2.classList.remove("is-active");
-    bloc3.classList.remove("is-active");
-    bloc4.classList.remove("is-active");
+    bloc1.classList.toggle("is-active");
   },
   false
 );
@@ -89,54 +71,37 @@ img2.addEventListener(
   {
     if(bloc2.classList.contains("is-active"))
     {
-      img4.setAttribute("src", "../../images/vine.jpg");
-      menu4.style.display=("block");
-      bloc4.style.width=("25%");
-      bloc4.style.float=("left");
-
-      img3.setAttribute("src", "../../images/menu3.jpg");
-      menu3.style.display=("block");
-      bloc3.style.width=("25%");
-      bloc3.style.float=("left");
-
-      img1.setAttribute("src", "../../images/menu1.jpg");
+      bloc1.style.display=("block");
       menu1.style.display=("block");
-      bloc1.style.width=("25%");
-      bloc1.style.float=("left");
+
+      bloc3.style.display=("block");
+      menu3.style.display=("block");
+
+      bloc4.style.display=("block");
+      menu4.style.display=("block");
 
       openMenu.style.display=("none");
-      text2.style.display=("none");
-      
-      bloc2.classList.remove("is-active");
+      text1.style.display=("none");
     }
     else
     {
-      img4.setAttribute("src", "../../images/vinemini.jpg");
+      bloc4.style.display=("none");
       menu4.style.display=("none");
-      bloc4.style.width=("100px");
-      bloc4.style.float=("right");
 
-      img3.setAttribute("src", "../../images/menu3mini.jpg");
+      bloc3.style.display=("none");
       menu3.style.display=("none");
-      bloc3.style.width=("100px");
-      bloc3.style.float=("right");
 
-      img1.setAttribute("src", "../../images/menu1mini.jpg");
+      bloc1.style.display=("none");
       menu1.style.display=("none");
-      bloc1.style.width=("100px");
-      bloc1.style.float=("right");
 
       openMenu.style.display=("block");
       text2.style.display=("block");
       text1.style.display=("none");
       text3.style.display=("none");
       text4.style.display=("none");
-      
-      bloc2.classList.add("is-active");
+
     }
-    bloc1.classList.remove("is-active");
-    bloc3.classList.remove("is-active");
-    bloc4.classList.remove("is-active");
+    bloc2.classList.toggle("is-active");
   },
   false
 );
@@ -147,54 +112,37 @@ img3.addEventListener(
   {
     if(bloc3.classList.contains("is-active"))
     {
-      img4.setAttribute("src", "../../images/vine.jpg");
-      menu4.style.display=("block");
-      bloc4.style.width=("25%");
-      bloc4.style.float=("left");
-
-      img2.setAttribute("src", "../../images/menu2.jpg");
+      bloc2.style.display=("block");
       menu2.style.display=("block");
-      bloc2.style.width=("25%");
-      bloc2.style.float=("left");
 
-      img1.setAttribute("src", "../../images/menu1.jpg");
+      bloc1.style.display=("block");
       menu1.style.display=("block");
-      bloc1.style.width=("25%");
-      bloc1.style.float=("left");
+
+      bloc4.style.display=("block");
+      menu4.style.display=("block");
 
       openMenu.style.display=("none");
-      text3.style.display=("none");
-      
-      bloc3.classList.remove("is-active");
+      text1.style.display=("none");
     }
     else
     {
-      img4.setAttribute("src", "../../images/vinemini.jpg");
+      bloc4.style.display=("none");
       menu4.style.display=("none");
-      bloc4.style.width=("100px");
-      bloc4.style.float=("right");
 
-      img2.setAttribute("src", "../../images/menu2mini.jpg");
-      menu2.style.display=("none");
-      bloc2.style.width=("100px");
-      bloc2.style.float=("right");
-
-      img1.setAttribute("src", "../../images/menu1mini.jpg");
+      bloc1.style.display=("none");
       menu1.style.display=("none");
-      bloc1.style.width=("100px");
-      bloc1.style.float=("right");
+
+      bloc2.style.display=("none");
+      menu2.style.display=("none");
 
       openMenu.style.display=("block");
       text3.style.display=("block");
-      text1.style.display=("none");
       text2.style.display=("none");
+      text1.style.display=("none");
       text4.style.display=("none");
-      
-      bloc3.classList.add("is-active");
+
     }
-    bloc1.classList.remove("is-active");
-    bloc2.classList.remove("is-active");
-    bloc4.classList.remove("is-active");
+    bloc3.classList.toggle("is-active");
   },
   false
 );
@@ -205,56 +153,202 @@ img4.addEventListener(
   {
     if(bloc4.classList.contains("is-active"))
     {
-      img3.setAttribute("src", "../../images/menu3.jpg");
-      menu3.style.display=("block");
-      bloc3.style.width=("25%");
-      bloc3.style.float=("left");
-
-      img2.setAttribute("src", "../../images/menu2.jpg");
+      bloc2.style.display=("block");
       menu2.style.display=("block");
-      bloc2.style.width=("25%");
-      bloc2.style.float=("left");
 
-      img1.setAttribute("src", "../../images/menu1.jpg");
+      bloc3.style.display=("block");
+      menu3.style.display=("block");
+
+      bloc1.style.display=("block");
       menu1.style.display=("block");
-      bloc1.style.width=("25%");
-      bloc1.style.float=("left");
 
       openMenu.style.display=("none");
       text4.style.display=("none");
-      
-      bloc4.classList.remove("is-active");
     }
     else
     {
-      img3.setAttribute("src", "../../images/menu3mini.jpg");
-      menu3.style.display=("none");
-      bloc3.style.width=("100px");
-      bloc3.style.float=("right");
-
-      img2.setAttribute("src", "../../images/menu2mini.jpg");
-      menu2.style.display=("none");
-      bloc2.style.width=("100px");
-      bloc2.style.float=("right");
-
-      img1.setAttribute("src", "../../images/menu1mini.jpg");
+      bloc1.style.display=("none");
       menu1.style.display=("none");
-      bloc1.style.width=("100px");
-      bloc1.style.float=("right");
+
+      bloc3.style.display=("none");
+      menu3.style.display=("none");
+
+      bloc2.style.display=("none");
+      menu2.style.display=("none");
 
       openMenu.style.display=("block");
       text4.style.display=("block");
       text2.style.display=("none");
       text3.style.display=("none");
       text1.style.display=("none");
-      
-      bloc4.classList.add("is-active");
+
     }
-    bloc2.classList.remove("is-active");
-    bloc3.classList.remove("is-active");
-    bloc1.classList.remove("is-active");
+    bloc4.classList.toggle("is-active");
   },
   false
 );
 
+//Part of code for the text
+menu1.addEventListener(
+  'click',
+  function()
+  {
+    if(bloc1.classList.contains("is-active"))
+    {
+      bloc2.style.display=("block");
+      menu2.style.display=("block");
 
+      bloc3.style.display=("block");
+      menu3.style.display=("block");
+
+      bloc4.style.display=("block");
+      menu4.style.display=("block");
+
+      openMenu.style.display=("none");
+      text1.style.display=("none");
+    }
+    else
+    {
+      bloc4.style.display=("none");
+      menu4.style.display=("none");
+
+      bloc3.style.display=("none");
+      menu3.style.display=("none");
+
+      bloc2.style.display=("none");
+      menu2.style.display=("none");
+
+      openMenu.style.display=("block");
+      text1.style.display=("block");
+      text2.style.display=("none");
+      text3.style.display=("none");
+      text4.style.display=("none");
+
+    }
+    bloc1.classList.toggle("is-active");
+  },
+  false
+);
+
+menu2.addEventListener(
+  'click',
+  function()
+  {
+    if(bloc2.classList.contains("is-active"))
+    {
+      bloc1.style.display=("block");
+      menu1.style.display=("block");
+
+      bloc3.style.display=("block");
+      menu3.style.display=("block");
+
+      bloc4.style.display=("block");
+      menu4.style.display=("block");
+
+      openMenu.style.display=("none");
+      text1.style.display=("none");
+    }
+    else
+    {
+      bloc4.style.display=("none");
+      menu4.style.display=("none");
+
+      bloc3.style.display=("none");
+      menu3.style.display=("none");
+
+      bloc1.style.display=("none");
+      menu1.style.display=("none");
+
+      openMenu.style.display=("block");
+      text2.style.display=("block");
+      text1.style.display=("none");
+      text3.style.display=("none");
+      text4.style.display=("none");
+
+    }
+    bloc2.classList.toggle("is-active");
+  },
+  false
+);
+
+menu3.addEventListener(
+  'click',
+  function()
+  {
+    if(bloc3.classList.contains("is-active"))
+    {
+      bloc2.style.display=("block");
+      menu2.style.display=("block");
+
+      bloc1.style.display=("block");
+      menu1.style.display=("block");
+
+      bloc4.style.display=("block");
+      menu4.style.display=("block");
+
+      openMenu.style.display=("none");
+      text1.style.display=("none");
+    }
+    else
+    {
+      bloc4.style.display=("none");
+      menu4.style.display=("none");
+
+      bloc1.style.display=("none");
+      menu1.style.display=("none");
+
+      bloc2.style.display=("none");
+      menu2.style.display=("none");
+
+      openMenu.style.display=("block");
+      text3.style.display=("block");
+      text2.style.display=("none");
+      text1.style.display=("none");
+      text4.style.display=("none");
+
+    }
+    bloc3.classList.toggle("is-active");
+  },
+  false
+);
+
+menu4.addEventListener(
+  'click',
+  function()
+  {
+    if(bloc4.classList.contains("is-active"))
+    {
+      bloc2.style.display=("block");
+      menu2.style.display=("block");
+
+      bloc3.style.display=("block");
+      menu3.style.display=("block");
+
+      bloc1.style.display=("block");
+      menu1.style.display=("block");
+
+      openMenu.style.display=("none");
+      text4.style.display=("none");
+    }
+    else
+    {
+      bloc1.style.display=("none");
+      menu1.style.display=("none");
+
+      bloc3.style.display=("none");
+      menu3.style.display=("none");
+
+      bloc2.style.display=("none");
+      menu2.style.display=("none");
+
+      openMenu.style.display=("block");
+      text4.style.display=("block");
+      text2.style.display=("none");
+      text3.style.display=("none");
+      text1.style.display=("none");
+
+    }
+    bloc4.classList.toggle("is-active");
+  },
+  false
+);
